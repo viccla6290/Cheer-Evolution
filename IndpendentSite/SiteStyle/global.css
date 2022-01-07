@@ -1,0 +1,252 @@
+@charset "utf-8";
+
+	/* CSS for my Cheer Site */
+
+	/* This rule will style the main page body */
+
+	body {   
+   		color: white;
+   		font-family: Verdana, Helvetica, Arial, sans-serif;
+   		font-size: 0.9em;
+		padding: 0;
+   		margin: 0;
+		background-image: url(background.jpg);
+		background-repeat: repeat-y;
+	}
+
+		}
+
+
+
+		#edges 	{
+			background-color: #FFFFFF;
+			color: black; 
+			margin: 25px;
+		}
+
+
+		p {
+
+		padding-bottom: 5px;
+		padding-left: 5px;
+		font-family: "Times New Roman";
+		font-size: 20px;
+
+		}
+
+
+
+			li {
+   			list-style-type: circle;
+			font-family: "Times New Roman";
+			font-size: 18px;
+			}
+
+	/* headlines */
+			h1, h2, h3, #one, #two, #three, #four, #five {
+
+   				font-family: "Times New Roman";
+   				font-size: 20px;
+				border: 3px solid purple;
+				padding: 15px;
+				margin: 15px;
+				}
+
+			h1 {
+    				color: Black;
+    				font-size: 3em;
+				font-family: fantasy;
+				text-align: center;
+				border-bottom-style: solid;
+   				border-bottom-color: purple;
+				border-bottom-width: 3px;
+			}
+
+			h2 {
+    				color: black;
+    				font-size: 1.75em;
+				font-family: fantasy;
+				border-bottom-width: 1px;
+   				border-bottom-style: solid;
+   				border-bottom-color: black;
+			}
+
+			h3 {
+    			color: black;
+    			font-size: 1.75em;
+			font-family: fantasy
+			}
+
+		
+
+      #one {
+	width: 200px;
+	height: 300px;
+   	float: left;
+	overflow: auto;
+      }
+
+      #two {
+	width: 200px;
+	height: 300px;
+   	float: left;
+	overflow: auto;
+      }
+
+      #three {
+        width: 200px;
+	height: 300px;
+   	float: left;
+	overflow: auto;
+      }
+ 	
+      #four {
+	width: 200px;
+	height: 300px;
+   	float: left;
+	overflow: auto;
+
+	}
+
+	#five {
+	clear: both;
+	}		
+
+
+	
+
+
+			/* hyperlink rules */
+
+
+				a {
+   				   color: #000000;
+				}
+				a:link {
+   				   color: #000000;
+				}
+				a:visited {
+				   color: #943AA4;
+				}
+				a:hover {
+				   color: #D900FF;
+				}
+				a:active {
+				   color: #FFFFFF;
+				}
+
+
+
+
+
+		/* Containers */
+
+
+
+			#main_content {
+
+			float: right;
+
+			width: 65%;
+
+			margin-top: 25px;
+
+			margin-right: 25px;
+
+			padding-right: 250px;
+
+			}
+
+			
+
+
+		#sidebar {
+			
+		text-color:#889A9C;
+
+		font-size: small;
+
+		float: left;
+
+		font-variant: small caps;
+
+		line-height: 1.2;
+
+		width: 200px;
+
+		margin-top: 25px;
+
+		margin-left: 25px;
+
+		padding-right:10px;
+
+		border-right-width: 1px;
+
+		border-right-style: solid;
+		
+		border-right-color: #889A9C;
+
+		border-left-width: 1px;
+
+		border-left-style: solid;
+		
+		border-left-color: #889A9C;
+		
+		}
+
+
+		#footer {
+
+		clear: both;
+		margin: 0px;
+		font-size: x-small;
+		text-align:center;
+		color: #889A9C;
+		background-color: #FFFFF;
+		padding: 10px;
+
+		}
+	
+		
+	
+
+		
+
+
+			/* Navigation Bar */
+				#navigation ul {
+  				margin: 0px;
+   				padding: 0px;
+   				font-size: 14px;
+   				font-variant: normal;
+				}
+
+
+			#navigation li {
+    				list-style-type: none;
+    				font-weight: bold;
+    				padding-top: 10px;
+    				padding-bottom: 10px;
+				}
+
+			#navigation a {
+    				color:purple;
+    				text-decoration: none;
+    				cursor: pointer;
+    				border-left-width: 20px;
+    				border-left-style: solid;
+    				border-left-color: black;
+    				padding-left: 5px;
+				}
+
+			#navigation a:hover {
+    				color: #purple;
+    				text-decoration: none;
+    				border-bottom-width: 1px;
+    				border-bottom-style: solid;
+    				border-bottom-color: purple;
+    				border-left-width: 1px;
+    				border-left-style: solid;
+    				border-left-color: purple;
+    				padding-left: 5px;
+				}
